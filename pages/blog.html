@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libros</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../assets/css/libros.css">
+    <link rel="stylesheet" href="../assets/css/blog.css">
+    <title>Blog</title>
 </head>
 <body>
+
 
     <header>
         <!-- barra de navegación -->
@@ -73,67 +73,36 @@
         </nav>
       </header>
 
-    <div id="title">
-        <h1 class="text-center">Books Love</h1>
+    <div class="title">
+        <h1 >¡Bienvenido <span id="name"> </span>!</h1>
     </div>
 
-    <div class="titles-container container mt-5">
-        <h1>Libros</h1>
-        <p>¡Bienvenido a nuestra sección de libros! Aquí podrás encontrar una lista de libros recomendados por nuestro equipo de expertos. ¡Esperamos que te gusten!</p>
-        
-      
-        <div class="search">
-          <div class="input-container">
-            <input type="text" name="text" class="input" id="search-input" placeholder="search...">
-            <span class="icon"> 
-              <svg width="19px" height="19px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path opacity="1" d="M14 5H20" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path opacity="1" d="M14 8H17" stroke="#000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M21 11.5C21 16.75 16.75 21 11.5 21C6.25 21 2 16.75 2 11.5C2 6.25 6.25 2 11.5 2" stroke="#000" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"></path> <path opacity="1" d="M22 22L20 20" stroke="#000" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
-            </span>
-          </div>
-          </div>
-
-          <div class="badges-to-categories">
-            <span class="badge text-bg-secondary">Python</span>
-            <span class="badge text-bg-secondary">Big-data</span>
-            <span class="badge text-bg-secondary">C#</span>
-            <span class="badge text-bg-secondary">Javascript</span>
-            <span class="badge text-bg-secondary">Cybersecurity</span>
-          </div>
-
-      </div>
-
-
-
-    
-
-
-    <div class="container mt-4">
+    <div class="container-lg">
 
         <div class="row">
-            <div class="col-md-4">
-                <div class="title">
-                    <h2>Recientes</h2>
+            <div class="col-12 col-md-8">
+                <div class="card">
+                    <img src="../assets/img/blog/blog1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">¿Por qué leer es importante?</h5>
+                      <p class="card-text">Leer es una actividad que nos permite expandir nuestro conocimiento, mejorar nuestra ortografía y gramática, y nos ayuda a relajarnos. En este artículo te contamos por qué es importante leer.</p>
+                      <a href="#" class="btn btn-primary">Leer más</a>
+                      </div>
                 </div>
-
-        </div>
-
-        <div class="row" id="book-list"></div>
-            <div class="slider">
-                <div class="book-list">
-          
             </div>
         </div>
     </div>
 
 
+    
+
+    <script src="../assets/js/blog.js"></script>
     <footer class="bg-light text-center py-3 mt-5">
         <p>Books Loves &copy; 2020</p>
     </footer>
-
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-    <script src="../assets/js/get_books.js"></script>
     <script src="../assets/js/nav.js"></script>
+    <script src="../assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 </body>
 </html>

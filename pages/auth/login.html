@@ -10,31 +10,18 @@
 </head>
 <body>
    <div id="title">
-      <h1 class="text-center">Iniciar sesión</h1>
-
-      <div id="carouselExampleFade" class="carousel slide carousel-fade">
-         <div class="carousel-inner">
-           <div class="carousel-item active">
-             <img src="https://oaxaca.quadratin.com.mx/www/wp-content/uploads/2020/12/libro-1.jpg" alt="...">
-           </div>
-           <div class="carousel-item">
-             <img src="https://igniteonline.la/wp-content/uploads/2020/06/diverse-education-shoot_53876-70501.jpg" alt="...">
-           </div>
-           <div class="carousel-item">
-             <img src="https://www.conclusion.com.ar/wp-content/uploads/2017/08/43cb1c_DSC_0005.jpeg" alt="...">
-           </div>
-         </div>
-         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span class="visually-hidden">Previous</span>
-         </button>
-         <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-           <span class="carousel-control-next-icon" aria-hidden="true"></span>
-           <span class="visually-hidden">Next</span>
-         </button>
-       </div>
-
+      <h1 class="text-center">Books Love</h1>
    </div>
+
+   <div class="alert alert-success" role="alert" id="alert_success"> 
+      Inicio de sesion exitoso!
+    </div>
+
+    <div class="alert alert-danger" role="alert" id="alert_error"> 
+      Problema al iniciar sesion. Intente de nuevo.
+    </div>
+
+
 
 <div id="form">
    <div class="wrapper">
@@ -69,6 +56,8 @@
   </div>
   
 </div>
+
+<audio id="sound-notification" src="../../assets/sounds/notification.mp3"></audio>
 
 <script src="auth.js"></script>
 </body>

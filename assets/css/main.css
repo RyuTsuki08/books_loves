@@ -2,6 +2,16 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.quotes .quote-box:hover{
+  cursor: pointer;
+  margin-top: -30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#logout_menu{
+  margin-right: 70px;
+}
+
 header {
   width: 100%;
 }
@@ -36,6 +46,7 @@ p {
   border-radius: 8px;
   text-align: center;
   margin-bottom: 20px;
+  transition: all 0.3s;
 }
 
 .quotes .quote-box p {

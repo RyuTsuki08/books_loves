@@ -1,0 +1,15 @@
+.title{
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+body{
+    background: radial-gradient(circle, rgba(255, 255, 255, 0.801) 0%, rgba(200, 206, 214, 0.753) 100%),url(../img/2111.w039.n003.23B.p1.23.jpg);
+    background-position: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
